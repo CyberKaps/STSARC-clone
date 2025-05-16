@@ -1,5 +1,5 @@
 import React from "react";
-import appImage from "../assets/sweebuzz.png"; // replace with actual path
+import appImage from "../assets/sweebuzz.png"; 
 
 const SweeBuzzIntro = () => {
   return (
