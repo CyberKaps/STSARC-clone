@@ -8,6 +8,7 @@ import Hero from './components/Hero'
 import TechCard from './components/TechCard'
 import { ShieldCheck } from "lucide-react";
 import TechSlider from './components/TechSlider'
+import SweeBuzzIntro from './components/SweeBuzzIntro'
 
 function App() {
   
@@ -28,7 +29,8 @@ function App() {
             <TechSlider />
         </div>
 
-        <h1 className='raleway-heading text-8xl text-[#fdcca9]'>SWEEBUZZ</h1>
+        <h1 className='raleway-heading text-8xl text-[#fdcca9] mt-4'>SWEEBUZZ</h1>
+        <SweeBuzzIntro />
 
       </div>
     </>
