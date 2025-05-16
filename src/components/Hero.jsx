@@ -11,7 +11,7 @@ export default function Hero(){
             <div className="text-xl text-black/60 leading-6 md:w-[60%] w-[95%] font-medium mb-2 font-extra px-5 mt-4 raleway">
                 With AI, Blockchain, and Web 3.0, we embark on a journey where pioneering technology converges with limitless potential, shaping a future constrained only by the bounds of imagination.
             </div>
-            <div className="flex gap-6 mt-8 items-center text-xl text-black/70 ">
+            <div className="md:flex gap-6 mt-8 items-center text-xl text-black/70 ">
                 <h3>Download pitch for</h3>
                 <Button text={"Sweebuzz"} />
                 <Button text={"Algorhithm"} />

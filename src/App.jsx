@@ -22,9 +22,12 @@ function App() {
         {/* <div className='text-[80px]'>
          <marquee>hiii</marquee>
         </div> */}
-        <div className='grid place-items-center'>
+  
+        <div className='md:flex md:mt-10 md:ms-5'>
            <TechSlider />
+            <TechSlider />
         </div>
+
       </div>
     </>
   )
