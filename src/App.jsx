@@ -5,6 +5,9 @@ import './App.css'
 import Button from './components/Button'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import TechCard from './components/TechCard'
+import { ShieldCheck } from "lucide-react";
+import TechSlider from './components/TechSlider'
 
 function App() {
   
@@ -16,8 +19,11 @@ function App() {
         <Navbar />
         <Hero />
 
-        <div className='text-[80px]'>
+        {/* <div className='text-[80px]'>
          <marquee>hiii</marquee>
+        </div> */}
+        <div className='grid place-items-center'>
+           <TechSlider />
         </div>
       </div>
     </>
