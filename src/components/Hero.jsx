@@ -5,7 +5,7 @@ export default function Hero(){
 
     return (
         <div className="h-screen     relative flex flex-col text-center bg-orange-50/10 text-gray-800 gap-2 items-center z-10 justify-center ">
-            <div className="text-4xl md:text-[68px] font-extrabold text-black/75 md:leading-[7vh] px-[20vw] raleway-heading">
+            <div className="text-4xl md:text-[60px] font-extrabold text-black/75 md:leading-[7vh] px-[20vw] raleway-heading">
                 Weaving a Smarter World, Thread By Thread, <span className="text-[#f96a50]">With AI</span> 
             </div>
             <div className="text-xl text-black/60 leading-6 md:w-[60%] w-[95%] font-medium mb-2 font-extra px-5 mt-4 raleway">
