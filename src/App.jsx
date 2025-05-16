@@ -28,6 +28,8 @@ function App() {
             <TechSlider />
         </div>
 
+        <h1 className='raleway-heading text-8xl text-[#fdcca9]'>SWEEBUZZ</h1>
+
       </div>
     </>
   )
