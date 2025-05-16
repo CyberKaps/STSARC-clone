@@ -3,7 +3,7 @@ import appImage from "../assets/sweebuzz.png"; // replace with actual path
 
 const SweeBuzzIntro = () => {
   return (
-    <section className="bg-[#FFF7F5] py-20 flex justify-around">
+    <section className="bg-[#fff7f6] py-20 flex justify-around">
       <div className="max-w-7xl mx-ato px-6 flex justify-between items-center gap-">
         {/* Text Section */}
         <div className="lg:w-1/2 text-center lg:text-left">
