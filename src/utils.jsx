@@ -19,4 +19,5 @@ export const Tech = [
     description:
       "Secure digital ledger that records transactions transparently and without intermediaries.",
   },
+  
 ];
