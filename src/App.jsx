@@ -11,6 +11,8 @@ import TechSlider from './components/TechSlider'
 import SweeBuzzIntro from './components/SweeBuzzIntro'
 import FeaturesSection from './components/FeaturesSection'
 import AlgorhithmIntro from './components/AlgorhithmIntro'
+import AlgoFeatures from './components/AlgoFeatures'
+
 
 function App() {
   
@@ -39,6 +41,8 @@ function App() {
         <h1 className='raleway-heading text-end text-8xl text-[#a9d8e4] mt-20'>ALGORHITHM</h1>
         
         <AlgorhithmIntro />
+
+        <AlgoFeatures />
 
       </div>
     </>
