@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="flex flex-col h-[70vh] lg:flex-row items-center justify-between bg-gradient-to-r from-orange-500 to-orange-700 text-white px-6 py-12 raleway ">
+    <div className="flex flex-col h-[68.5vh] lg:flex-row items-center justify-between bg-gradient-to-r from-orange-500 to-orange-700 text-white pl-20 py-12 raleway ">
     
       <div className="lg:w-1/2 space-y-6">
         <h2 className="text-3xl font-extrabold">About Us</h2>
