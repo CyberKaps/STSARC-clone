@@ -14,6 +14,7 @@ import AlgorhithmIntro from './components/AlgorhithmIntro'
 import AlgoFeatures from './components/AlgoFeatures'
 import About from './components/About'
 import VisionMission from './components/VisionMission'
+import Timeline from './components/Timeline'
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
 
         <About />
         <VisionMission />
+        <Timeline />
 
       </div>
     </>
