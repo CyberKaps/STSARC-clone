@@ -12,6 +12,7 @@ import SweeBuzzIntro from './components/SweeBuzzIntro'
 import FeaturesSection from './components/FeaturesSection'
 import AlgorhithmIntro from './components/AlgorhithmIntro'
 import AlgoFeatures from './components/AlgoFeatures'
+import About from './components/About'
 
 
 function App() {
@@ -43,6 +44,8 @@ function App() {
         <AlgorhithmIntro />
 
         <AlgoFeatures />
+
+        <About />
 
       </div>
     </>

@@ -48,22 +48,22 @@ const FeaturesSection = () => {
           {features.map((item, index) => (
             <div
               key={index}
-              className="relative group bg-white rounded-3xl shadow-lg overflow-hidden transition-all duration-500 hover:bg-gradient-to-br hover:from-[#FF6C4A] hover:to-[#f98939] cursor-pointer"
+              className="relative group bg- rounded- border-black shadow-lg overflow-hidden transition-all duration-500 hover:bg-gradient-to-br hover:from-[#FF6C4A] hover:to-[#f98939] cursor-pointer"
             >
-              {/* Image */}
+  
               <img
                 src={item.img}
                 alt={item.title}
                 className="transition-opacity duration-500 group-hover:opacity-0"
               />
-
-              {/* Overlay Text */}
+  
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-sm">{item.desc}</p>
               </div>
             </div>
           ))}
+
         </div>
       </div>
     </section>
