@@ -15,10 +15,10 @@ import AlgoFeatures from './components/AlgoFeatures'
 import About from './components/About'
 import VisionMission from './components/VisionMission'
 import Timeline from './components/Timeline'
+import SupportedBy from './components/supportedby'
 
 
 function App() {
-  
 
   return (
     <>
@@ -50,6 +50,7 @@ function App() {
         <About />
         <VisionMission />
         <Timeline />
+        <SupportedBy />
 
       </div>
     </>
