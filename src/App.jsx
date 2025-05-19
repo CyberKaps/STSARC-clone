@@ -16,6 +16,7 @@ import About from './components/About'
 import VisionMission from './components/VisionMission'
 import Timeline from './components/Timeline'
 import SupportedBy from './components/supportedby'
+import OurTeam from './components/OurTeam'
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <VisionMission />
         <Timeline />
         <SupportedBy />
+        <OurTeam />
 
       </div>
     </>
