@@ -27,7 +27,7 @@ const SweeBuzzIntro = () => {
             alt="SweeBuzz App"
             className="w-full max-w-md mx-auto drop-shadow-xl"
           />
-          <div className="absolute bg-[#FF6C4A] rounded-full w-72 h-72 -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20"></div>
+          {/* <div className="absolute bg-[#FF6C4A] rounded-full w-72 h-72 -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-20"></div> */}
         </div>
       </div>
     </section>
