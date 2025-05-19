@@ -6,9 +6,8 @@ const VisionMission = () => {
     <div className="w-full py-20 bg-white flex raleway">
       <div className="max-w-6x w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items- md:ps-20">
         
-        {/* Text Section */}
+
         <div className="space-y-10 mt-20">
-          {/* Vision */}
           <div>
             <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Our Vision</h2>
             <p className="text-gray-700 text-xl font-light leading-relaxed">
@@ -21,7 +20,7 @@ const VisionMission = () => {
             </p>
           </div>
 
-          {/* Mission */}
+
           <div>
             <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Our Mission</h2>
             <p className="text-gray-700 text-xl font-light leading-relaxed">

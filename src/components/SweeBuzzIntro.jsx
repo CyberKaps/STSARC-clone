@@ -5,7 +5,6 @@ const SweeBuzzIntro = () => {
   return (
     <section className="bg-[#fff7f6] py-20 flex justify-around">
       <div className="max-w-7xl mx-ato px-6 flex justify-between items-center gap-">
-        {/* Text Section */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h2 className="text-4xl font-bold text-gray-900 leading-snug mb-6">
             Introducing SweeBuzz: Your <br />
@@ -22,7 +21,6 @@ const SweeBuzzIntro = () => {
           </p>
         </div>
 
-        {/* Image Section */}
         <div className="lg:w-1/2 relative">
           <img
             src={appImage}

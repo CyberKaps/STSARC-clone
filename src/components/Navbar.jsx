@@ -10,12 +10,10 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-sm fixed top-0 z-50">
       <div className="container mx-auto px- py-6 flex justify-between items-center ">
-        {/* Logo */}
         <div className="w-[100px]">
             <img src={logo} alt="" />
         </div>
 
-        {/* Desktop Nav */}
         <ul className="hidden md:flex gap-8 text-gray-500 font-sm">
           {navLinks.map((link) => (
             <li key={link}>
@@ -25,14 +23,11 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-
-        {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
 
-      {/* Mobile Nav */}
       {isOpen && (
         <ul className="md:hidden bg-white px-4 py-4 space-y-4 shadow-lg">
           {navLinks.map((link) => (

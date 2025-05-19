@@ -48,14 +48,14 @@ const AlgoFeatures = () => {
               key={index}
               className="relative group bg- rounded- border-black shadow-lg overflow-hidden transition-all duration-500 hover:bg-gradient-to-br hover:from-[#42a3bb] hover:to-[#42a3bb] cursor-pointer"
             >
-              {/* Image */}
+
               <img
                 src={item.img}
                 alt={item.title}
                 className="transition-opacity duration-500 group-hover:opacity-0"
               />
 
-              {/* Overlay Text */}
+           
               <div className="absolute inset-0 flex flex-col justify-center items-center text-white px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-sm">{item.desc}</p>

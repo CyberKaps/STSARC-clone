@@ -1,4 +1,3 @@
-// ./ParticleBackground.js
 import { useCallback } from "react";
 import { loadFull } from "tsparticles";
 import Particles from "react-tsparticles";

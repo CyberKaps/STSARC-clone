@@ -17,13 +17,14 @@ import VisionMission from './components/VisionMission'
 import Timeline from './components/Timeline'
 import SupportedBy from './components/SupportedBy'
 import OurTeam from './components/OurTeam'
+import Footer from './components/Footer'
 
 
 function App() {
 
   return (
     <>
-      <div>
+      <div className='raleway'>
         {/* <h1 className='bg-red-400'>Hii Kalpesh</h1> */}
         <Navbar />
         <Hero />
@@ -53,6 +54,7 @@ function App() {
         <Timeline />
         <SupportedBy />
         <OurTeam />
+        <Footer />
 
       </div>
     </>

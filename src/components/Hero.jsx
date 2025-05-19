@@ -5,12 +5,12 @@ import ParticleBackground from "./ParticleBackground";
 export default function Hero() {
   return (
     <div className="h-screen relative bg-[#fff9f2] text-gray-800 overflow-hidden">
-      {/* Particles */}
+   
       <div className="absolute inset-0 z-0 pointer-events-none">
         <ParticleBackground />
       </div>
 
-      {/* Main Content */}
+  
       <div className="relative z-10 flex flex-col text-center gap-2 items-center justify-center h-full">
         <div className="text-4xl md:text-[60px] font-extrabold text-black/75 md:leading-[7vh] px-[20vw] raleway-heading">
           Weaving a Smarter World, Thread By Thread,{" "}
