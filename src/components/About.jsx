@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="flex flex-col h-[68.5vh] lg:flex-row items-center justify-between bg-gradient-to-r from-orange-500 to-orange-700 text-white pl-20 py-12 raleway ">
     
-      <div className="lg:w-1/2 space-y-6">
+      <div className="lg:w-1/2 space-y-6 pt-8">
         <h2 className="text-3xl font-extrabold">About Us</h2>
         <p className="text-xl font-extralight leading-relaxed">
           STSARC (Sahajananda Tech Services And Research Centre Private Limited). The name of our company itself defines us. 
