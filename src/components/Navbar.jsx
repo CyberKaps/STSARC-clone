@@ -1,6 +1,5 @@
-// components/Navbar.jsx
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react'; // install lucide-react if not already
+import { Menu, X } from 'lucide-react'; 
 import logo from "../assets/logo.jpg"
 
 const Navbar = () => {
