@@ -3,7 +3,7 @@ import React from 'react';
 
 const VisionMission = () => {
   return (
-    <div className="w-full py-20 bg-white flex justify-">
+    <div className="w-full py-20 bg-white flex raleway">
       <div className="max-w-6x w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items- md:ps-20">
         
         {/* Text Section */}
@@ -11,7 +11,7 @@ const VisionMission = () => {
           {/* Vision */}
           <div>
             <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Our Vision</h2>
-            <p className="text-gray-700 text-xl leading-relaxed">
+            <p className="text-gray-700 text-xl font-light leading-relaxed">
               We got a vision from a deep passion for innovation, technological evolution, and solving real-time challenges.
               I thrive on identifying critical problems in AI for EdTech, Data Science, Cybersecurity, and Blockchain,
               then building cutting-edge solutions that drive meaningful impact. The rapid transformation of these industries
@@ -24,7 +24,7 @@ const VisionMission = () => {
           {/* Mission */}
           <div>
             <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Our Mission</h2>
-            <p className="text-gray-700 text-xl leading-relaxed">
+            <p className="text-gray-700 text-xl font-light leading-relaxed">
               At STSARC, we're on a mission to drive innovation and transformation in India's tech landscape.
               Specializing in pioneering technologies like AI/ML, Metaverse, and Blockchain, we're crafting
               revolutionary products that cater to the diverse needs of Indian businesses. From AI-driven social
@@ -38,12 +38,12 @@ const VisionMission = () => {
           <img
             src={"https://www.capgemini.com/wp-content/uploads/2022/01/Capgemini_Innovation-Ecosystem-1.jpg"}
             alt="Vision"
-            className="md:w-[20vw] h-[70vh] rounded shadow-lg object-cover"
+            className="md:w-[20vw] h-[70vh] rounded-lg shadow-lg object-cover"
           />
           <img
             src={"https://media.istockphoto.com/id/1146475545/photo/coffee-break-during-business-meeting-vertical-shot.jpg?s=612x612&w=0&k=20&c=dxhcm1sm8B6hFu7yCYn1oWFn68JHdwv-MolYRQbDl7g="}
             alt="Mission"
-            className="md:w-[20vw] h-[70vh] rounded shadow-lg object-cover mt-10"
+            className="md:w-[20vw] h-[70vh] rounded-lg shadow-lg object-cover mt-10"
           />
         </div>
 

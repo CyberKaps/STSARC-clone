@@ -5,7 +5,7 @@ import logo from "../assets/logo.jpg"
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navLinks = ['HOME', 'PRDUCT', 'ABOUT', 'CONTACT'];
+  const navLinks = ['HOME', 'PRODUCT', 'ABOUT', 'CONTACT'];
 
   return (
     <nav className="w-full bg-white shadow-sm fixed top-0 z-50">

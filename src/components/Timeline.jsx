@@ -13,17 +13,17 @@ function Timeline() {
 
       {/* Item 1 */}
       <div className="flex items-center w-full">
-        <div className="w-1/2 flex justify-end pr-8">
+        <div className="w-1/2 flex justify-centre">
           <div className="bg-orange-50 p-6 rounded-xl shadow max-w-sm text-center">
             <h3 className="font-semibold text-lg text-gray-900">Launch of STSARC</h3>
             <p className="text-sm text-gray-600 mt-2">
               In January 2021, STSARC was founded with the aim of innovation.
             </p>
-          </div>
+          </div>  
         </div>
         <div className="relative z-10">
           <div className="w-6 h-6 ms-3 bg-red-500 rounded-full border-4 border-white shadow"></div>
-          <p className="text-xs text-gray-500 mt-2 text-center">Jan 2021</p>
+          <p className="text-xs text-gray-500 mt-2">Jan 2021</p>
         </div>
         <div className="w-1/2"></div>
       </div>
@@ -33,8 +33,8 @@ function Timeline() {
         <div className="w-1/2"></div>
         <div className="relative z-10">
           <div className="w-6 h-6 ms-3 bg-red-500 rounded-full border-4 border-white shadow"></div>
-          <p className="text-xs text-gray-500 mt-2 text-center">Nov 2023</p>
         </div>
+       <p className="text-xs text-gray-500 mt-2 text-center">Nov 2023</p>
         <div className="w-1/2 flex justify-start pl-8">
           <div className="bg-orange-50 p-6 rounded-xl shadow max-w-sm text-center">
             <h3 className="font-semibold text-lg text-gray-900">Incorporation of STSARC</h3>
